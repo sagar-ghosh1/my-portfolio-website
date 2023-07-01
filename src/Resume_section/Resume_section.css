@@ -1,0 +1,105 @@
+.resume-section{
+    padding: 50px 0 10px;
+ }
+ .resume-section .resume-details h2{
+     margin-bottom: 10px;
+     font-size: 34px;
+     font-weight: 700;
+     line-height: 42px;
+     text-align: center;
+     color: #202020;
+     text-transform: capitalize;
+ }
+ .resume-section .resume-details .separator-2{
+     width: 55px;
+     height: 2px;
+     background-color: #D95435;
+     margin: 20px auto 60px; 
+ }
+ .resume-workExp{
+   padding: 20px;
+ }
+ .resume-workExp h2{
+     font-size: 28px;
+     margin-bottom: 30px;
+     line-height: 42px;
+     color: #202020;
+     font-weight: 700;
+ }
+ .resume-workExp ul{
+   padding: 0;
+   margin-left: 14px;
+   border-left: 1px solid #d9d9d9;
+ }
+ .resume-workExp ul li{
+   list-style: none;
+ }
+ ul li .another-heading h4,
+ ul li .another-headingX h4,
+ ul li .another-headingY h4{
+     font-weight: 400;
+     font-size: 16px;
+     margin: 0 0 30px 0;
+     background: linear-gradient(90deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,0) 100%);
+     padding: 13px 0px 13px 40px;
+     position: relative;
+ }
+ ul li .another-heading h4::before{
+     position: absolute;
+     content: "1";
+     background: #D95435;
+     width: 45px;
+     height: 45px;
+     text-align: center;
+     line-height: 45px;
+     border-radius: 50px;
+     color: #FFF;
+     top: 0;
+     left: -24px;
+ }
+ ul li .another-headingX h4::before{
+     position: absolute;
+     content: "2";
+     background: #D95435;
+     width: 45px;
+     height: 45px;
+     text-align: center;
+     line-height: 45px;
+     border-radius: 50px;
+     color: #FFF;
+     top: 0;
+     left: -24px;
+ }
+ ul li .another-headingY h4::before{
+     position: absolute;
+     content: "3";
+     background: #D95435;
+     width: 45px;
+     height: 45px;
+     text-align: center;
+     line-height: 45px;
+     border-radius: 50px;
+     color: #FFF;
+     top: 0;
+     left: -24px;
+ }
+ 
+ ul li .another-heading-2{
+     padding: 0 0 30px 40px;
+ }
+ ul li .another-heading-2 h4{
+     font-weight: 700;
+     margin-top: 20px;
+     margin-bottom: 6px;
+     font-size: 18px;
+     color: #202020;
+ }
+ ul li .another-heading-2 h5{
+     margin-bottom: 10px;
+     color: #D95435;
+     font-size: 16px;
+ }
+ ul li .another-heading-2 p{
+     font-size: 15px;
+     line-height: 30px;    
+ } 

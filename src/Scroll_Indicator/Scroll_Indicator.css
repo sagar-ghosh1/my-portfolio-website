@@ -1,0 +1,31 @@
+.progressBar{
+    position: fixed;
+    width: 20px;
+    height: 100%;
+    top: 100;
+    right: 0;
+    z-index: 101;
+    filter: blur(50px);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+.progressBar .Progress-line{
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    z-index: 103;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}

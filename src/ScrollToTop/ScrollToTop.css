@@ -1,0 +1,28 @@
+.ScrollTop{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 540px;
+    right: 40px; 
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+    z-index: 200;
+}
+.ScrollTop.scroller{
+    bottom: 40px;
+    opacity: 1;
+    visibility: visible;
+}
+.ScrollTop .btnIcon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #D95435;
+    color: #FFF; 
+}
