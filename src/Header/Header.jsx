@@ -1,6 +1,6 @@
 import './Header.css'
 import logo from '../assets/idea.png'
-import resume from "../../src/assets/Resume(Nazmul Hassan).pdf"
+import resume from "../../src/assets/Sagar_Ghosh_Resume.pdf"
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { RxCross2 } from 'react-icons/rx';
 import { useEffect, useState } from 'react';
