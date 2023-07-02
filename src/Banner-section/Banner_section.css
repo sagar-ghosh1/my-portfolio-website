@@ -74,7 +74,7 @@
      align-items: center;
      margin-top: 34px;
   }
-  .info .about-me{
+  .info .contact-me{
       text-decoration: none;
       display: inline-block;
       font-family: Jost,sans-serif;
@@ -86,14 +86,14 @@
       text-transform: capitalize;
       z-index: 1;
   }
-  .info .about-me .btn{
+  .info .contact-me .btn{
       padding: 10px 40px 9px;
       color: var(--white);
   }
-  .info .about-me .btn:hover{
+  .info .contact-me .btn:hover{
       color: var(--black);
   }
-  .info .about-me::before{
+  .info .contact-me::before{
       position: absolute;
       content: "";
       width: 100%;
@@ -104,7 +104,7 @@
       transition: all 0.2s ease-in-out;
       z-index: -1;
   }
-  .info .about-me:hover::before{
+  .info .contact-me:hover::before{
     bottom: -100%;
     transition: all 0.22s ease-in-out;
   }
@@ -144,7 +144,7 @@
     .home-details .para p { 
         line-height: 28px;
     }
-    .info .about-me .btn { 
+    .info .contact-me .btn { 
         padding: 7px 30px 7px;
     }
     .image-sec .personal-img { 

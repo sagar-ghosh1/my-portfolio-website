@@ -30,7 +30,7 @@ const Banner_section = () => {
                 <p>Im Web Developer From Bangladesh, and Im very passionate and dedicated to my work with a strong focus in Problem solving.I love to get new experiences and always learn from my surroundings.I looking forward to any opportunities and challenges.</p>
               </div>
               <div className="info">
-                <a href="#about" className="about-me"><span className="btn">about me</span></a>
+                <a href="#contact" className="contact-me"><span className="btn">Hire Me</span></a>
                 <ul>
                   <li>
                     <a href="https://web.facebook.com/profile.php?id=100012189210083" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
