@@ -109,6 +109,14 @@
     outline: none;
 }
 
+.contactbutton {
+    background-color: #F75023;
+    border: 2px solid #f75023;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
 
 @media (min-width: 320px) and (max-width: 576px) {
 
