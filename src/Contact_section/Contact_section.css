@@ -1,14 +1,17 @@
-.contact-section{
+.contact-section {
     padding: 75px 0;
 }
-.contact-section .containers{
+
+.contact-section .containers {
     max-width: 1140px;
     margin: auto;
 }
-.contact-section .contact-info-1{
-      margin-bottom: 80px;
+
+.contact-section .contact-info-1 {
+    margin-bottom: 80px;
 }
-.contact-section .contact-info-1 h2{
+
+.contact-section .contact-info-1 h2 {
     margin-bottom: 10px;
     font-size: 34px;
     font-weight: 700;
@@ -17,133 +20,151 @@
     color: #202020;
     text-transform: capitalize;
 }
-.contact-section .contact-info-1 .separator-2{
+
+.contact-section .contact-info-1 .separator-2 {
     width: 55px;
     height: 2px;
     background-color: #D95435;
     margin: 20px auto 60px;
 }
-  
-.contact-section .contact-info-2{
-      padding: 10px;
+
+.contact-section .contact-info-2 {
+    padding: 10px;
 }
-  .contact-info-2 .contact-details{
-      display: flex;
-      align-items: center;
-  }
-  .contact-info-2 .contact-details .fa-map-marker-alt{
-      width: 85px;
-      height: 85px;
-      line-height: 85px;
-      font-size: 20px;
-      border-radius: 50px;
-      color: #F75023;
-      text-align: center;
-      background: rgba(247,80,35,0.2);
-      margin-right: 22px;
-  }
-  .contact-info-2 .contact-details .fa-envelope{
-      width: 85px;
-      height: 85px;
-      line-height: 85px;
-      font-size: 20px;
-      border-radius: 50px;
-      color: #1cbe59;
-      text-align: center;
-      background: rgba(28,190,89,0.2);
-      margin-right: 22px;
-  }
-  .contact-info-2 .contact-details .fa-phone-alt{
-      width: 85px;
-      height: 85px;
-      line-height: 85px;
-      font-size: 20px;
-      border-radius: 50px;
-      color: #8067f0;
-      text-align: center;
-      background: rgba(128,103,240,0.2);
-      margin-right: 22px;
-  }
-  .contact-details .address h3{
-      font-size: 30px;
-      margin-bottom: 5px;
-  }
-  .contact-details .address p{
-      font-size: 16px;
-      margin: 0;
-  }
-  
-  .forms .input1{
-      width: 105%;
-      height: 58px;
-      padding: 0 30px;
-      background-color: transparent;
-      border: 1px solid #d6dbe5;
-      border-radius: 12px;
-      color: #6f6b80;
-      font-size: 18px;
-      outline: none;
-      margin-bottom: 12px;
-  }
-  .forms textarea{
-      width: 103%;
-      height: 200px;
-      padding: 16px 30px 30px !important;
-      background-color: transparent;
-      border: 1px solid #d6dbe5;
-      border-radius: 12px;
-      color: #6f6b80;
-      font-size: 18px;
-      resize: none;  
-      outline: none;
-  }
+
+.contact-info-2 .contact-details {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-2 .contact-details .fa-map-marker-alt {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #F75023;
+    text-align: center;
+    background: rgba(247, 80, 35, 0.2);
+    margin-right: 22px;
+}
+
+.contact-info-2 .contact-details .fa-envelope {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #1cbe59;
+    text-align: center;
+    background: rgba(28, 190, 89, 0.2);
+    margin-right: 22px;
+}
+
+.contact-info-2 .contact-details .fa-phone-alt {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #8067f0;
+    text-align: center;
+    background: rgba(128, 103, 240, 0.2);
+    margin-right: 22px;
+}
+
+.contact-details .address h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.contact-details .address p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.forms .input1 {
+    width: 105%;
+    height: 58px;
+    padding: 0 30px;
+    background-color: transparent;
+    border: 1px solid #d6dbe5;
+    border-radius: 12px;
+    color: #6f6b80;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.forms textarea {
+    width: 103%;
+    height: 200px;
+    padding: 16px 30px 30px !important;
+    background-color: transparent;
+    border: 1px solid #d6dbe5;
+    border-radius: 12px;
+    color: #6f6b80;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+}
 
 
-  @media (min-width: 320px) and (max-width: 576px){
+@media (min-width: 320px) and (max-width: 576px) {
 
-    .contact-section { 
+    .contact-section {
         padding: 50px 20px;
     }
+
     .contact-section .contact-info-1 {
-         margin-bottom: 60px;
-        }
+        margin-bottom: 60px;
+    }
+
     .contact-section .contact-info-1 h3 {
-        font-size: 24px; 
+        font-size: 24px;
         margin-bottom: 16px;
     }
-    .contact-section .contact-info-1 h1 { 
-        font-size: 38px; 
-        font-weight: 600; 
+
+    .contact-section .contact-info-1 h1 {
+        font-size: 38px;
+        font-weight: 600;
         margin-bottom: 20px;
     }
-    .contact-section .contact-info-1 p { 
+
+    .contact-section .contact-info-1 p {
         padding: 0;
     }
-    .contact-section .contact-info-2 { 
+
+    .contact-section .contact-info-2 {
         margin-bottom: 20px;
     }
-    .contact-info-2 .contact-details .fa-map-marker-alt { 
-        width: 75px; 
-        height: 75px; 
+
+    .contact-info-2 .contact-details .fa-map-marker-alt {
+        width: 75px;
+        height: 75px;
         line-height: 75px;
     }
-     form { 
+
+    form {
         margin-top: 40px;
     }
-    .forms .input1 { 
+
+    .forms .input1 {
         width: 100%;
     }
-    .forms textarea { 
+
+    .forms textarea {
         width: 100%;
     }
-    .info { 
+
+    .info {
         justify-content: space-between;
     }
-    .info .about-me { 
+
+    .info .about-me {
         display: block;
     }
 
-  }
 
 
-
+}

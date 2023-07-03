@@ -1,6 +1,20 @@
+import { useRef } from 'react';
 import './Contact_section.css'
+import emailjs from '@emailjs/browser';
 
 const Contact_section = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_863py8m', 'template_yg6sfyl', form.current, 'mDm8v3rd7WdQj2Lsw')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
   return (
     <section className="contact-section" id="contact">
       <div className="containers">
@@ -44,42 +58,13 @@ const Contact_section = () => {
             </div>
           </div>
 
+
           <div className="col-lg-6 offset-lg-2" data-aos="fade-up">
-            <form action="" >
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="forms">
-                    <input type="text" name="name" placeholder="Your Name" autoComplete='off' required="required" className="input1" />
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="forms">
-                    <input type="email" name="Email" placeholder="Your Email" autoComplete='off' required="required" className="input1" />
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="forms">
-                    <input type="phone" name="phone" placeholder="Your Phone" autoComplete='off' required="required" className="input1" />
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="forms">
-                    <input type="subject" name="subject" placeholder="Subject" autoComplete='off' required="required" className="input1" />
-                  </div>
-                </div>
-
-                <div className="col-lg-12">
-                  <div className="forms">
-                    <textarea name="messege" placeholder="Write Your Message Here"></textarea>
-                  </div>
-                </div>
-              </div>
-              <div className="info">
-                <a href="#" className="about-me"><span className="btn">Submit Now</span></a>
-              </div>
+            <form className='forms' ref={form} onSubmit={sendEmail}>
+              <input placeholder='Your Name' className='input1' type="text" name="user_name" />
+              <input placeholder='Your Email' className='input1' type="email" name="user_email" />
+              <textarea placeholder='write your message' name="message" />
+              <input className='contactbutton' type="submit" value="Send" />
             </form>
           </div>
         </div>
