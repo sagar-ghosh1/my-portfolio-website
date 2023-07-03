@@ -1,15 +1,15 @@
 import './Contact_section.css'
 
 const Contact_section = () => {
-    return (
-        <section className="contact-section" id="contact">
+  return (
+    <section className="contact-section" id="contact">
       <div className="containers">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="contact-info-1">
-                <h2>Contact Info</h2>
-                <div className="separator-2"></div>
-            </div>          
+              <h2>Contact Info</h2>
+              <div className="separator-2"></div>
+            </div>
           </div>
 
           <div className="col-lg-4" data-aos="fade-down">
@@ -17,8 +17,8 @@ const Contact_section = () => {
               <div className="contact-details">
                 <i className="fas fa-map-marker-alt"></i>
                 <div className="address">
-                    <h3>Address</h3>
-                    <p>20, Somewhere in world</p>
+                  <h3>Address</h3>
+                  <p>Satkhira, Bangladesh</p>
                 </div>
               </div>
             </div>
@@ -27,8 +27,8 @@ const Contact_section = () => {
               <div className="contact-details">
                 <i className="fas fa-envelope"></i>
                 <div className="address">
-                    <h3>Email</h3>
-                    <p>nh4647352@gmail.com</p>
+                  <h3>Email</h3>
+                  <p>sagarghosh4000@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@ const Contact_section = () => {
               <div className="contact-details">
                 <i className="fas fa-phone-alt"></i>
                 <div className="address">
-                    <h3>Phone</h3>
-                    <p>+088-01833220886</p>
+                  <h3>Phone</h3>
+                  <p>+8801748671301</p>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Contact_section = () => {
         </div>
       </div>
     </section>
-    );
+  );
 };
 
 export default Contact_section;
