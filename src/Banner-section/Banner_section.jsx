@@ -1,5 +1,5 @@
 import './Banner_section.css'
-import myImage from '../assets/nazmul.png'
+import myImage from '../assets/Screenshot_1.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Banner_section = () => {
@@ -17,7 +17,7 @@ const Banner_section = () => {
             <div className="pointer"></div>
           </a>
 
-          <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+          <div className="col-lg-7" data-aos="fade-right" data-aos-duration="1500">
             <div className="home-details">
               <h3>Hello, Im Sagar Ghosh</h3>
               <h1>{text}
@@ -46,11 +46,11 @@ const Banner_section = () => {
             </div>
           </div>
 
-          {/* <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="image-sec" data-aos="fade-up" data-aos-duration="1500">
               <img src={myImage} alt="image" className="personal-img" />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
