@@ -8,7 +8,7 @@ const About_section = () => {
                 <div className="row gx-5">
                     <div className="col-lg-12">
                         <div className="about-details">
-                            <h2>About Me</h2>
+                            <h2>My Skills</h2>
                             <div className="separator3"></div>
                         </div>
                     </div>
