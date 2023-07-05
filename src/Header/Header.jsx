@@ -39,6 +39,9 @@ const Header = () => {
               <a href="#home" onClick={() => setActive("home")} className={`${active === "home" ? "action" : ""}`}>Home</a>
             </li>
             <li>
+              <a href="#abo" onClick={() => setActive("abo")} className={`${active === "abo" ? "action" : ""}`}>About</a>
+            </li>
+            <li>
               <a href="#about" onClick={() => setActive("about")} className={`${active === "about" ? "action" : ""}`}>Skills</a>
             </li>
             <li>

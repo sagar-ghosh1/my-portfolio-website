@@ -1,0 +1,30 @@
+.flexsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgSection {
+    height: 500px;
+}
+
+.imgSection img {
+    height: 600px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .flexsection {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgSection {
+        height: 500px;
+    }
+
+    .imgSection img {
+        height: 300px;
+    }
+}
