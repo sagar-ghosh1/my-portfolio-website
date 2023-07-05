@@ -5,7 +5,7 @@ import sec3 from '../assets/sec-3.png'
 
 const Design_Info = () => {
     return (
-        <section className="Design_Info" id="self">
+        <section className="Design_Info" id="abo">
             <div className="containers">
                 <div className="row">
                     <div className="col-lg-4" data-aos="zoom-in-down" data-aos-duration="1500">

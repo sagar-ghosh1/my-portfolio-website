@@ -13,7 +13,7 @@ const Banner_section = () => {
       <div className="containers">
         <div className="row">
 
-          <a href="#self" className="button">
+          <a href="#abo" className="button">
             <div className="pointer"></div>
           </a>
 
