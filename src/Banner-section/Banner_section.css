@@ -48,14 +48,16 @@
 
 .home-details h3 {
     color: var(--red);
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 16px;
 }
 
 .home-details h1 {
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
+
+
 
 .home-details h1 .type {
     color: var(--black);
