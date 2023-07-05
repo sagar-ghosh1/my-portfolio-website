@@ -8,7 +8,7 @@ import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
 import Scroll_Indicator from './Scroll_Indicator/Scroll_Indicator'
-import loader from './assets/loader.gif'
+import loader from './assets/R.gif'
 import Portfolio from './Portfolio/Portfolio'
 import About from './About/About'
 
