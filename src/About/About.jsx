@@ -5,7 +5,7 @@ import myImage from '../assets/aboutsect.png'
 const About = () => {
     return (
         <div className='container' id='abo'>
-            <h1 className='text-center'>About Me</h1>
+            <h1 className='text-center abouttitle'>About Me</h1>
             <div className='flexsection'>
                 <div className='imgSection'>
                     <img src={myImage} alt="" />
