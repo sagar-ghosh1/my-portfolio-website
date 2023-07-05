@@ -6,7 +6,6 @@ import Contact_section from './Contact_section/Contact_section'
 import Design_Info from './Design_Info/Design_Info'
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
-import Portfolio_section from './Portfolio_section/Portfolio_section'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
 import Scroll_Indicator from './Scroll_Indicator/Scroll_Indicator'
 import loader from './assets/loader.gif'
@@ -35,7 +34,6 @@ function App() {
           <Banner_section />
           <Design_Info />
           <About_section />
-          {/* <Portfolio_section /> */}
           <Contact_section />
           <Footer />
         </>
