@@ -2,12 +2,36 @@
     margin: auto;
 }
 
-.card:hover .backgroundImg {
+.card:hover .backgroundImg1 {
     background-position: bottom;
 }
 
-.backgroundImg {
+.card:hover .backgroundImg2 {
+    background-position: bottom;
+}
+
+.card:hover .backgroundImg3 {
+    background-position: bottom;
+}
+
+.backgroundImg1 {
     background: url(../assets/3.png);
+    height: 500px;
+    background-size: cover;
+    background-color: blueviolet;
+    transition: ease-in-out 3s;
+}
+
+.backgroundImg2 {
+    background: url(../assets/2.png);
+    height: 500px;
+    background-size: cover;
+    background-color: blueviolet;
+    transition: ease-in-out 3s;
+}
+
+.backgroundImg3 {
+    background: url(../assets/1.png);
     height: 500px;
     background-size: cover;
     background-color: blueviolet;
