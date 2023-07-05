@@ -1,5 +1,5 @@
 import './Banner_section.css'
-import myImage from '../assets/Screenshot_1.png'
+import myImage from '../assets/sagarbanner.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Banner_section = () => {
@@ -19,13 +19,13 @@ const Banner_section = () => {
 
           <div className="col-lg-7" data-aos="fade-right" data-aos-duration="1500">
             <div className="home-details">
-              <h3>Hello, Im Sagar Ghosh</h3>
+              <h3>Hello, Im Sagar Ghosh!!</h3>
               <h1>{text}
                 <span style={{ "color": "#f75023" }}>
                   <Cursor />
                 </span>
               </h1>
-              <p>A <span className="green-text">Web Developer</span> From <span className="blue-text">Bangladesh</span></p>
+              <p><span className="green-text">Web Developer</span> and <span className="blue-text">Web Designer</span></p>
               <div className="para">
                 <p>Im Web Developer From Bangladesh, and Im very passionate and dedicated to my work with a strong focus in Problem solving.I love to get new experiences and always learn from my surroundings.I looking forward to any opportunities and challenges.</p>
               </div>

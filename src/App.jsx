@@ -9,6 +9,7 @@ import Header from './Header/Header'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
 import Scroll_Indicator from './Scroll_Indicator/Scroll_Indicator'
 import loader from './assets/loader.gif'
+import Portfolio_section from './Portfolio_section/Portfolio_section'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ function App() {
           <Header />
           <Banner_section />
           <Design_Info />
+          <Portfolio_section />
           <About_section />
           <Contact_section />
           <Footer />
