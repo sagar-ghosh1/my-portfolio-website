@@ -8,7 +8,7 @@ import Modal3 from './Modal/Modal3';
 
 const Portfolio = () => {
   return (
-    <div className='container projectCard'>
+    <div className='container projectCard' id='portfolio'>
       <div className="card" style={{ "width": "24rem" }}>
         <figure className='backgroundImg1'></figure>
         <div className="card-body">
