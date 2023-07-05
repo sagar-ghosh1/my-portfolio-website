@@ -1,0 +1,44 @@
+.card {
+    margin: auto;
+}
+
+.card:hover .backgroundImg {
+    background-position: bottom;
+}
+
+.backgroundImg {
+    background: url(../assets/3.png);
+    height: 500px;
+    background-size: cover;
+    background-color: blueviolet;
+    transition: ease-in-out 3s;
+}
+
+.iconStyle {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+
+.projectCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .projectCard {
+
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
