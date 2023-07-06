@@ -1,3 +1,17 @@
+.portfoliotitle {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.separator-2 {
+    width: 55px;
+    height: 2px;
+    background-color: #D95435;
+    margin: 20px auto 40px;
+}
+
 .card {
     margin: auto;
 }

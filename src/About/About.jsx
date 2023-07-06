@@ -6,6 +6,7 @@ const About = () => {
     return (
         <div className='container' id='abo' data-aos="zoom-in-up" data-aos-duration="1500">
             <h1 className='text-center abouttitle'>About Me</h1>
+            <div className="separator-2"></div>
             <div className='flexsection'>
                 <div className='imgSection'>
                     <img src={myImage} alt="" />
