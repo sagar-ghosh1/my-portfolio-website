@@ -27,7 +27,7 @@ const Banner_section = () => {
               </h1>
               <p><span className="green-text">Web Developer</span> and <span className="blue-text">Web Designer</span></p>
               <div className="para">
-                <p>Im Web Developer From Bangladesh, and Im very passionate and dedicated to my work with a strong focus in Problem solving.I love to get new experiences and always learn from my surroundings.I looking forward to any opportunities and challenges.</p>
+                <p>I possess a strong set of technical skills, a problem-solving mindset, great teamwork abilities, a love of learning, keen attention to detail and a strong commitment to my work. I like to get new experiences and I like to learn new things. Explore my resume below to get a better understanding of my skills and experience.</p>
               </div>
               <div className="info">
                 <a href="#contact" className="contact-me"><span className="btn">Hire Me</span></a>

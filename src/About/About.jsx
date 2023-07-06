@@ -12,12 +12,7 @@ const About = () => {
                     <img src={myImage} alt="" />
                 </div>
                 <div>
-                    <p>I m a Front-end Developer with over 2 years of exprience.
-                        As a web developer experienced in , JavaScript, my goal is to build captivating websites and applications.
-                        I am eager to learn and collaborate with a talented team to create user- friendly web solutions.
-                        By writing clean code and problem- solving effectively,
-                        I aim to contribute to organizational success
-                        while advancing my career in web development.</p>
+                    <p>I m a Front-end Developer with over 1 years of exprience. As a web developer experienced in , JavaScript, my goal is to build captivating websites and applications. I am eager to learn and collaborate with a talented team to create user- friendly web solutions. By writing clean code and problem- solving effectively, I aim to contribute to organizational success while advancing my career in web development.</p>
 
                     <div className="info">
                         <a href="#contact" className="contact-me"><span className="btn">Hire Me</span></a>
