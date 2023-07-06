@@ -27,15 +27,6 @@ const Contact_section = () => {
           </div>
 
           <div className="col-lg-4" data-aos="fade-down">
-            <div className="contact-info-2">
-              <div className="contact-details">
-                <i className="fas fa-map-marker-alt"></i>
-                <div className="address">
-                  <h3>Address</h3>
-                  <p>Satkhira, Bangladesh</p>
-                </div>
-              </div>
-            </div>
 
             <div className="contact-info-2">
               <div className="contact-details">
@@ -53,6 +44,16 @@ const Contact_section = () => {
                 <div className="address">
                   <h3>Phone</h3>
                   <p>+8801748671301</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="contact-info-2">
+              <div className="contact-details">
+                <i className="fas fa-map-marker-alt"></i>
+                <div className="address">
+                  <h3>Address</h3>
+                  <p>Satkhira, Bangladesh</p>
                 </div>
               </div>
             </div>

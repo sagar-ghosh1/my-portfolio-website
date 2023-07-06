@@ -1,6 +1,8 @@
 import React from 'react';
 import './Modal1.css'
 import modal1 from '../../assets/modalblog.png'
+import { AiFillGithub, AiOutlineLink } from 'react-icons/ai';
+import { FiServer } from 'react-icons/fi';
 
 const Modal1 = () => {
   return (
@@ -31,8 +33,16 @@ const Modal1 = () => {
             </p>
 
           </div>
-          <div className="modal-footer">
-            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <div className="modal-footer model-info">
+            <div>
+              <a className='iconStyle' href="https://github.com/sagar-ghosh1/food-club-client " target='_blank' rel='noreferrer'><AiFillGithub></AiFillGithub></a>
+              <a className='iconStyle' href="https://github.com/sagar-ghosh1/food-club-server" target='_blank' rel='noreferrer'><FiServer className='iconStyle'></FiServer></a>
+              <a className='iconStyle' href="https://food-club-d8106.web.app/" target='_blank' rel='noreferrer'><AiOutlineLink className='iconStyle'></AiOutlineLink></a>
+
+            </div>
+            <div>
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>

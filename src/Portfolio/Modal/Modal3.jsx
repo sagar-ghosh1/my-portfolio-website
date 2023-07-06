@@ -1,6 +1,8 @@
 import React from 'react';
 import './Modal3.css'
 import modal2 from '../../assets/deepthout.png'
+import { AiFillGithub, AiOutlineLink } from 'react-icons/ai';
+import { FiServer } from 'react-icons/fi';
 
 const Modal3 = () => {
   return (
@@ -30,8 +32,16 @@ const Modal3 = () => {
               HTML5, CSS3, Vercel, React Js, Firebase, Tailwind CSS, Daisy UI, react-helmet-async, MongoDB, Express Js, Node Js, React router, JWT, Axios, AOS Animation, Sweetalert, React query, swiper, react-hook-form, toastify
             </p>
           </div>
-          <div className="modal-footer">
-            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <div className="modal-footer model-info">
+            <div>
+              <a className='iconStyle' href="https://github.com/sagar-ghosh1/deep-thought-client" target='_blank' rel='noreferrer'><AiFillGithub></AiFillGithub></a>
+              <a className='iconStyle' href="https://github.com/sagar-ghosh1/deep-thought-server" target='_blank' rel='noreferrer'><FiServer className='iconStyle'></FiServer></a>
+              <a className='iconStyle' href="https://648dea9e73a33f277cc9e1d9--grand-crepe-235e4e.netlify.app/" target='_blank' rel='noreferrer'><AiOutlineLink className='iconStyle'></AiOutlineLink></a>
+
+            </div>
+            <div>
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
