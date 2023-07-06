@@ -59,6 +59,10 @@ const About_section = () => {
                             </div>
                         </div>
 
+
+                    </div>
+
+                    <div className="col-lg-6">
                         <div className="progress-title">
                             <h2>React Js</h2>
                             <div className="progress-bars">
@@ -67,9 +71,7 @@ const About_section = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="col-lg-6">
                         <div className="progress-title">
                             <h2>Firebase</h2>
                             <div className="progress-bars">
@@ -97,23 +99,8 @@ const About_section = () => {
                             </div>
                         </div>
 
-                        <div className="progress-title">
-                            <h2>PHP</h2>
-                            <div className="progress-bars">
-                                <div className="progress-speed10">
-                                    <div className="headbar10"><CountUp start={0} end={65} duration={4} style={{ "color": "white" }} />%</div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className="progress-title">
-                            <h2>MySql</h2>
-                            <div className="progress-bars">
-                                <div className="progress-speed11">
-                                    <div className="headbar11"><CountUp start={0} end={70} duration={4} style={{ "color": "white" }} />%</div>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div className="progress-title">
                             <h2>Node Js</h2>
