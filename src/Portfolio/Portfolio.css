@@ -34,7 +34,7 @@
     background: url(../assets/1.png);
     height: 500px;
     background-size: cover;
-    background-color: blueviolet;
+    background-color: rgb(195, 148, 238);
     transition: ease-in-out 3s;
 }
 
