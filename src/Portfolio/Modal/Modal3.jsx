@@ -15,7 +15,7 @@ const Modal3 = () => {
             <figure><img src={modal2} alt="" /></figure>
 
             <p>
-              Deep Thought overview <br /> <br />
+              Deep Thought <br /> <br />
               <span>key Features</span> <br />
               1. This is an exercise website of mine doing exercise type work.
               <br />
@@ -26,7 +26,7 @@ const Modal3 = () => {
               6. Again, if it doesnt work properly, it will give an error.
             </p> <br />
             <p>
-              <span>Technologies</span>, <br />
+              <span>Technologies</span> <br />
               HTML5, CSS3, Vercel, React Js, Firebase, Tailwind CSS, Daisy UI, react-helmet-async, MongoDB, Express Js, Node Js, React router, JWT, Axios, AOS Animation, Sweetalert, React query, swiper, react-hook-form, toastify
             </p>
           </div>

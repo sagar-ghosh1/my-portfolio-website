@@ -15,7 +15,7 @@ const Modal2 = () => {
                         <figure><img src={modal2} alt="" /></figure>
 
                         <p>
-                            Robotics Toys overview <br /> <br />
+                            Robotics Toys <br /> <br />
                             <span>key Features</span> <br />
                             1. It is a game type website.
                             <br />
@@ -28,7 +28,7 @@ const Modal2 = () => {
                             6. Again you can blog if you want.
                         </p> <br />
                         <p>
-                        <span>Technologies</span>, <br />
+                        <span>Technologies</span> <br />
                             ReactJs, React router, Tailwind CSS, AOS Animation, Daisy UI, Firebase, Sweetalert, Express Js, Node Js, Vercel, MongoDB, toastify, react-helmet-async
                         </p>
                     </div>

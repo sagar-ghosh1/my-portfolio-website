@@ -15,7 +15,7 @@ const Modal1 = () => {
             <figure><img src={modal1} alt="" /></figure>
 
             <p>
-              Food Club overview <br /> <br />
+              Food Club <br /> <br />
               <span>key Features</span> <br />
               1. If you like the food of any recipe, you can tell about that recipe by clicking the view recipe button.
               <br />
@@ -26,7 +26,7 @@ const Modal1 = () => {
               6. If the user is logged in, he can view the safe and recipe details.
             </p> <br />
             <p>
-              <span>Technologies</span>, <br />
+              <span>Technologies</span> <br />
               HTML5, CSS3, Tailwind CSS,  DaisyUI, ReactJs,  Firebase, React-lazy-load, MongoDB, React-to-pdf, Express Js, NodeJs, React router, Vercel
             </p>
 

@@ -21,7 +21,7 @@ const Portfolio = () => {
               <a className='iconStyle' href="https://food-club-d8106.web.app/" target='_blank' rel='noreferrer'><AiOutlineLink className='iconStyle'></AiOutlineLink></a>
 
             </div>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+            <button type="button" className="btn btn-primary contactbutton" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
               Details
             </button>
             <Modal1></Modal1>
@@ -40,7 +40,7 @@ const Portfolio = () => {
               <a className='iconStyle' href="https://robotics-toys.web.app/" target='_blank' rel='noreferrer'><AiOutlineLink className='iconStyle'></AiOutlineLink></a>
 
             </div>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+            <button type="button" className="btn btn-primary contactbutton" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
               Details
             </button>
             <Modal2></Modal2>
@@ -59,7 +59,7 @@ const Portfolio = () => {
               <a className='iconStyle' href="https://648dea9e73a33f277cc9e1d9--grand-crepe-235e4e.netlify.app/" target='_blank' rel='noreferrer'><AiOutlineLink className='iconStyle'></AiOutlineLink></a>
 
             </div>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            <button type="button" className="btn btn-primary contactbutton" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
               Details
             </button>
             <Modal3></Modal3>
