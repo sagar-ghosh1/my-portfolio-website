@@ -14,6 +14,22 @@ const Modal1 = () => {
           <div className="modal-body">
             <figure><img src={modal1} alt="" /></figure>
 
+            <p>
+              Food Club overview <br /> <br />
+              <span>key Features</span> <br />
+              1. If you like the food of any recipe, you can tell about that recipe by clicking the view recipe button.
+              <br />
+              2. If the user is logged in, his name can be seen in the navbar with his picture and tooltip. <br />
+              3. It is a cooking and food-related website. <br />
+              4. This site uses a login system. <br />
+              5. Favorite food cant be added without login. <br />
+              6. If the user is logged in, he can view the safe and recipe details.
+            </p> <br />
+            <p>
+              <span>Technologies</span>, <br />
+              HTML5, CSS3, Tailwind CSS,  DaisyUI, ReactJs,  Firebase, React-lazy-load, MongoDB, React-to-pdf, Express Js, NodeJs, React router, Vercel
+            </p>
+
           </div>
           <div className="modal-footer">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
