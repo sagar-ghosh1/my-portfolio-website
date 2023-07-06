@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const About_section = () => {
     return (
-        <section className='about-section' id='about'>
+        <section className='about-section' id='about' data-aos="zoom-in-up" data-aos-duration="1500">
             <div className="containers">
                 <div className="row gx-5">
                     <div className="col-lg-12">

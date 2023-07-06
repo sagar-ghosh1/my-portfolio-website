@@ -1,11 +1,10 @@
 import React from 'react';
 import './About.css'
 import myImage from '../assets/aboutsect.png'
-import resume from "../../src/assets/Sagar_Ghosh_Resume.pdf"
 
 const About = () => {
     return (
-        <div className='container' id='abo'>
+        <div className='container' id='abo' data-aos="zoom-in-up" data-aos-duration="1500">
             <h1 className='text-center abouttitle'>About Me</h1>
             <div className='flexsection'>
                 <div className='imgSection'>
