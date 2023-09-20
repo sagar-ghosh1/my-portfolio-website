@@ -6,7 +6,10 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p>Copyright © 2023 - All right reserved by Sagar Ghosh</p>
+                        <p>Copyright © 2023 - All right reserved by Sagar Kumar Ghosh</p>
+
+
+
                     </div>
                 </div>
             </div>
